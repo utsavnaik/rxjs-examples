@@ -30,11 +30,3 @@ const observable = new Observable(subscriber => {
 // adding logs to show observable emitting asynchronously
 observable.subscribe(observer);
 
-function setInterval(arg0: () => void, arg1: number) {
-    throw new Error('Function not implemented.');
-}
-
-function clearInterval(id: void) {
-    throw new Error('Function not implemented.');
-}
-
